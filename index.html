@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepy Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+   <button id="play-button">♫</button>
+</nav>
+
+<body>
+
+    <h1> Sleepy Night</h1>
+
+    <div class="buttons">
+        <button><a href="https://www.youtube.com/watch?v=bn9F19Hi1Lk">Ocean Tide</a></button>
+        <button><a href="https://www.youtube.com/watch?v=eTeD8DAta4c">Rain</a></button>
+        <button><a href="https://www.youtube.com/watch?v=UgHKb_7884o">Camp Fire</a></button>
+        <button><a href="https://www.youtube.com/watch?v=32SR2_4XGWw">Gentle Waves</a></button>
+        <button><a href="https://www.youtube.com/watch?v=_dJDFGvkc1Y">Underwater</a></button>
+        <button><a href="https://www.youtube.com/watch?v=o6n0fS-B_bw">Meadow</a></button>
+        <button> <a href="https://www.youtube.com/watch?v=RLDCb7W5xNo">Rushing River</a></button>
+        <button> <a href="https://www.youtube.com/watch?v=17zyMo7YZZk">Night Beach</a></button>
+    </div>
+
+    <audio id="bgm" src="assets/12AM_Animal Crossing_ New Horizons Soundtrack.mp3"></audio>
+
+    <script>
+
+        const playButton = document.querySelector("#play-button");
+        const audio = document.querySelector("#bgm")
+
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+
+    </script>
+
+</body>
+
+</html>
