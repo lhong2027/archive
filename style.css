@@ -32,7 +32,7 @@ button{
     padding: 10px;
     background-color: rgb(162, 227, 255);
     color: rgb(0, 87, 128);
-    font-family: cursive;
+    font-family:fantasy;
     font-size: 20px;
     box-shadow: 0 9px rgb(35, 72, 128);
     border-radius: 15px;
@@ -56,7 +56,7 @@ a{
 .buttons{
     display: flex;
     justify-content: center;
-    margin-top: 550px;
+    margin-top: 500px;
     overflow: scroll;
 }
 
